@@ -1,0 +1,120 @@
+body{
+    background-image:url("img/white_carbon.png");
+	width: 75%;
+	margin: auto;
+}
+
+div.title {
+	margin-top:10px;
+	margin-bottom:10px;
+	float: left;
+	height: 100px;
+}
+
+div.title h1 {
+	font-family: 'Slabo 27px', serif;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+div.title h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: medium;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+div.nav {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	float: right;
+	height: 100px;
+}
+
+div.nav table{
+	vertical-align: middle;
+
+	height: 100%;
+	padding:0px;
+}
+
+div.nav ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: white;
+	border: 1px solid black;
+}
+
+div.nav li{
+	float: left;
+	border-right: 1px solid black;
+
+}
+
+div.nav li:last-child {
+    border-right: none;
+}
+
+div.nav li a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+}
+
+div.nav li a:hover {
+	background-color: #f2f2f2;
+}
+
+#thisLink {
+	background-color: #f2f2f2;
+}
+
+div.nav td{
+	
+	padding: 5px;
+}
+
+
+div.content {
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+	clear: both;
+}
+
+#mainImage {
+	border-radius: 5px;
+	width: 75%;
+	max-width: 484px;
+}
+
+
+div.content table{
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	height: 60px;
+	padding:10px;
+}
+
+div.content td{
+	padding: 20px;
+}
+
+.fa {
+	font-size: 50px;
+}
+
+div.content a {
+	color: black;
+	text-decoration: none;
+}
+
+div.content a:hover {
+	color: blue;
+	text-decoration: underline;
+}
