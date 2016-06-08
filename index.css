@@ -1,6 +1,7 @@
 body{
     background-image:url("img/white_carbon.png");
-	margin: auto;
+    text-rendering: optimizeLegibility;
+  	margin: auto;
 }
 
 
@@ -26,6 +27,19 @@ div.nav ul{
    padding: 0;
 }
 
+div.nav li{
+    border-right: 1px solid black;
+}
+
+div.nav li:last-child{
+  border-left:1px solid black;
+}
+
+div.nav li:first-child{
+    border-right: none;
+    border-left: none;
+}
+
 div.nav li a{
       color: black;
       display: block;
@@ -34,6 +48,8 @@ div.nav li a{
       padding: 2px 15px;
       text-decoration: none;
 }
+
+
 
 div.nav li a:hover {
   color: blue;
@@ -55,6 +71,12 @@ li.navi {
 
 div.title {
   text-align: center;
+  margin:auto;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black;
 }
 
 div.title h1 {
